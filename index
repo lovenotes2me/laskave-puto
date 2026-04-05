@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Láskavé puto | Michaela</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-bg: #fdfaf8;
+            --text-main: #4a4a4a;
+            --text-sub: #8c7b75;
+            --accent-color: #e0d5d0;
+            --white: #ffffff;
+            --hover-bg: #fcf6f4;
+        }
+
+        body {
+            background-color: var(--primary-bg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px 0;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+        }
+
+        .container {
+            max-width: 400px;
+            width: 90%;
+            padding: 40px 20px;
+        }
+
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: var(--accent-color);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--white);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+
+        
+        .profile-img span {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+            color: var(--text-sub);
+        }
+
+        .main-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+            font-size: 2.2rem;
+            letter-spacing: -0.02em;
+            margin: 0 0 8px 0;
+        }
+
+        .subtitle {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.4rem;
+            color: var(--text-sub);
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px; 
+        }
+
+        .btn {
+            display: block;
+            padding: 16px 24px;
+            text-decoration: none;
+            background-color: var(--white);
+            color: var(--text-main);
+            border: 1px solid var(--accent-color);
+            border-radius: 15px;
+            font-size: 1rem;
+            font-weight: 400;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+        }
+
+        .btn:hover {
+            background-color: var(--hover-bg);
+            transform: translateY(-3px);
+            border-color: #d1c1ba;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.07);
+        }
+
+        .btn-featured {
+            background-color: #f7f1ee; 
+            border-color: #d8c8c2;
+        }
+
+        .footer-quote {
+            margin-top: 50px;
+            font-size: 0.85rem;
+            color: var(--text-sub);
+            line-height: 1.6;
+            font-style: italic;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="profile-img">
+            <span>M</span>
+        </div>
+
+        <h1 class="main-title">Láskavé puto</h1>
+        <p class="subtitle">Kde sa láskavosť k sebe mení na pokojný domov.</p>
+
+        <div class="button-container">
+           
+            <a href="#" class="btn btn-featured">
+                📖 Pridaj sa na waitlist: Sprievodca 'Mami, som doma.'
+            </a>
+
+            <a href="https://preview.mailerlite.io/preview/2095142/sites/183670813147268831/laskave-puto-waitlist"_blank">
+                🌿 ZADARMO 7 viet, ktoré upokoja tvoje dieťa
+            </a>
+            
+            <a href="https://subscribepage.io/7-day-solo-date-challenge" class="btn" target="_blank">
+                ✨ ZADARMO 30 sekúnd, ktoré zmenia vaše poobedie
+            </a>
+        </div>
+
+        <div class="footer-quote">
+            "Emócia, ktorá dostane priestor vyjadriť sa v tvojom objatí, sa nemusí premeniť na hnev."
+        </div>
+    </div>
+
+</body>
+</html>
